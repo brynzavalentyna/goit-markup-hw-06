@@ -1,0 +1,136 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  line-height: 24px;
+  background: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 117%;
+}
+
+.main-nav a:hover,
+.logo:hover,
+address a:hover,
+.main-nav a:focus,
+.logo:focus,
+address a:focus {
+  color: #404bbf;
+}
+
+.main-nav:active {
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+address li,
+a {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-color: #4d5ae5;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #404bbf;
+  border-color: #404bbf;
+}
+
+#hero {
+  background: #2e2f42;
+  height: 600px;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 60px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.feature-item-title,
+.portfolio-item-title,
+.card-title {
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.feature-item--descr,
+.portfolio-item--descr,
+.card-descr {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.card-title,
+.card-descr,
+.card {
+  text-align: center;
+}
