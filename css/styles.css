@@ -53,7 +53,7 @@ address a:focus {
   background-color: #404bbf;
 }
 
-.logo-studio {
+.logo-studio-top {
   color: #2e2f42;
 }
 
@@ -109,6 +109,7 @@ button:focus {
   text-align: center;
   font-weight: 500;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .feature-item-title,
@@ -139,4 +140,18 @@ button:focus {
 .card {
   text-align: center;
   background-color: #ffffff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+
+.footer-descr {
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
