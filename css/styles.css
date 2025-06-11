@@ -71,12 +71,12 @@ address a:focus {
   color: #404bbf;
 }
 
-.main-nav-list:active {
+/*.main-nav-list:active {
   border-radius: 2px;
   width: 48px;
   height: 4px;
   background-color: #404bbf;
-}
+}*/
 
 /*address li,
 a {
@@ -87,12 +87,6 @@ a {
 }*/
 
 button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  border-color: #4d5ae5;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -102,10 +96,17 @@ button {
   cursor: pointer;
 }
 
+/*border-radius: 4px;
+padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-color: #4d5ae5;
+*/
+
 button:hover,
 button:focus {
   background: #404bbf;
-  border-color: #404bbf;
 }
 
 .main-section {
