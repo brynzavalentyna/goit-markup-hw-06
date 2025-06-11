@@ -58,8 +58,8 @@ h3 {
   color: #2e2f42;
 }
 
-.main-nav-list a:hover,
-.main-nav-list a:focus,
+.main-nav-list:hover,
+.main-nav-list:focus,
 .logo-web:hover,
 .logo-web:focus,
 .logo-studio-top:hover,
