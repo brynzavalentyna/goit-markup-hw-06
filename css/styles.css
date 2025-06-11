@@ -129,6 +129,7 @@ button:focus {
   font-weight: 500;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 
 .feature-item-title,
