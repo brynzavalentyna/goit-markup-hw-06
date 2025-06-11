@@ -24,7 +24,7 @@ ul {
   text-decoration: none;
 }
 
-.logo-studio-top {
+.logo-studio-header {
   color: #2e2f42;
   font-size: 18px;
   line-height: 1.17;
@@ -43,8 +43,8 @@ ul {
 .main-nav-list:focus,
 .logo-web:hover,
 .logo-web:focus,
-.logo-studio-top:hover,
-.logo-studio-top:focus,
+.logo-studio-header:hover,
+.logo-studio-header:focus,
 .logo-studio-footer:hover,
 .logo-studio-footer:focus,
 address a:hover,
