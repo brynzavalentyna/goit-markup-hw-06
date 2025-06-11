@@ -119,6 +119,7 @@ button:focus {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .section-title {
