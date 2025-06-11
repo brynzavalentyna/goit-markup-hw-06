@@ -1,3 +1,5 @@
+/*Tags styles */
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -9,28 +11,7 @@ ul {
   list-style-type: none;
 }
 
-.contact-info {
-  font-style: normal;
-}
-
-.contact-info-item {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/*h1,
-h2,
-h3 {
-  margin: 0;
-  padding: 0;
-}*/
-
-/*.main-nav a {
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}*/
+/* Header styles */
 
 .logo-web {
   text-transform: uppercase;
@@ -71,20 +52,16 @@ address a:focus {
   color: #404bbf;
 }
 
-/*.main-nav-list:active {
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background-color: #404bbf;
-}*/
-
-/*address li,
-a {
-  font-weight: 400;
-  font-size: 16px;
+.contact-info {
   font-style: normal;
+}
+
+.contact-info-item {
   letter-spacing: 0.02em;
-}*/
+  color: #434455;
+}
+
+/*Hero section styles */
 
 button {
   background: #4d5ae5;
@@ -95,14 +72,6 @@ button {
   color: #fff;
   cursor: pointer;
 }
-
-/*border-radius: 4px;
-padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  border-color: #4d5ae5;
-*/
 
 button:hover,
 button:focus {
@@ -121,6 +90,8 @@ button:focus {
   color: #fff;
   text-align: center;
 }
+
+/*Main sections styles */
 
 .section-title {
   font-size: 36px;
@@ -161,6 +132,8 @@ button:focus {
 .card {
   background-color: #ffffff;
 }
+
+/* Footer styles */
 
 .footer {
   background-color: #2e2f42;
