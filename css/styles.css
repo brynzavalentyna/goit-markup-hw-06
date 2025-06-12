@@ -54,7 +54,6 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
-  /*display: inline;*/
 }
 
 .section {
@@ -68,13 +67,19 @@ a {
 
 nav {
   display: flex;
+  align-items: center;
 }
 
-.header {
+header {
+  display: flex;
+}
+
+header .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 nav ul,
@@ -91,7 +96,7 @@ address ul {
   line-height: 117%;
   color: #4d5ae5;
   margin-right: 76px;
-  margin-left: 156px;
+  margin-left: 0;
 }
 
 .logo-studio-header {
@@ -99,6 +104,11 @@ address ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+
+.main-nav,
+.contact-info {
+  padding: 24px 0;
 }
 
 .main-nav-list {
@@ -124,12 +134,16 @@ address a:focus {
 
 .contact-info {
   font-style: normal;
-  margin-right: 156px;
+  margin-right: 0;
 }
 
 .contact-info-item {
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /*Hero section styles */
@@ -148,8 +162,10 @@ button {
   margin-right: auto;
   margin-left: auto;
   display: block;
-
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 button:hover,
@@ -159,6 +175,7 @@ button:focus {
 
 #hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -168,6 +185,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  max-width: 496px;
 }
 
 /*Main sections styles */
@@ -195,6 +213,7 @@ button:focus {
   font-weight: 500;
   color: #2e2f42;
   padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .card-descr {
@@ -202,7 +221,6 @@ button:focus {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
   margin-bottom: 0;
   padding-bottom: 32px;
 }
@@ -218,6 +236,7 @@ button:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   text-align: center;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .card-title,
@@ -244,6 +263,10 @@ button:focus {
   padding-left: 16px;
 }
 
+.card-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 /* Footer styles */
 
 .footer {
@@ -259,6 +282,6 @@ button:focus {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-left: 156px;
+  padding-left: 0;
   padding-top: 16px;
 }
