@@ -22,20 +22,6 @@ p {
   padding: 0;
 }
 
-/* !!! Перевірити скидання марджинів та паддангів !!!
-
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-ul, ol {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 0;
-}
-!!! Перевірити скидання марджинів та паддангів !!! */
-
 img {
   display: block;
   max-width: 100%;
@@ -185,8 +171,10 @@ button:focus {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #fff;
-  text-align: center;
   max-width: 496px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*Main sections styles */
@@ -213,7 +201,6 @@ button:focus {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -223,7 +210,6 @@ button:focus {
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 0;
-  padding-bottom: 32px;
 }
 
 #team {
