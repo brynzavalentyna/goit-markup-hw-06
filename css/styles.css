@@ -227,6 +227,14 @@ button:focus {
   color: #434455;
 }
 
+.icons-list {
+  background: #f4f4fd;
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 #team {
   background-color: #f4f4fd;
   text-transform: capitalize;
@@ -252,9 +260,9 @@ button:focus {
   margin-top: 8px;
 }
 
-.social-media-item {
+/* .social-media-item {
   flex-basis: calc((100% - 4 * 24px) / 5);
-}
+} */
 
 /*.card-title,
 .card-descr,
