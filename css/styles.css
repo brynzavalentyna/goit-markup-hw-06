@@ -247,10 +247,13 @@ button:focus {
 
 .icons-list {
   background: #f4f4fd;
-  padding: 24px 100px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
 }
 
 #team {
