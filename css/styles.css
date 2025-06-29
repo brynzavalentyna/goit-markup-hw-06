@@ -30,12 +30,6 @@ a {
   text-decoration: none;
 }
 
-/*Draft styles */
-
-/* Draft styles */
-
-/* Global styles */
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -189,6 +183,7 @@ button:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -451,5 +446,14 @@ footer ul {
 }
 
 .footer-social-media {
-  width: 208px;
+  max-width: 208px;
+  margin-right: auto;
+}
+
+.logo-studio-footer {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-studio-footer:hover {
+  color: #404bbf;
 }
