@@ -172,10 +172,21 @@
             d="M33.782 1.020c0.691-0.662 1.611-1.027 2.565-1.020s1.869 0.387 2.55 1.059c0.681 0.672 1.076 1.584 1.101 2.543s-0.321 1.891-0.966 2.598l-19.578 24.617c-0.337 0.365-0.743 0.657-1.195 0.86s-0.939 0.312-1.434 0.322c-0.495 0.009-0.986-0.082-1.445-0.268s-0.876-0.463-1.226-0.815l-12.984-13.054c-0.362-0.339-0.652-0.747-0.853-1.201s-0.309-0.944-0.318-1.441 0.082-0.99 0.267-1.451c0.185-0.461 0.461-0.879 0.81-1.231s0.766-0.628 1.224-0.814 0.949-0.277 1.443-0.269c0.494 0.009 0.981 0.118 1.433 0.32s0.858 0.494 1.195 0.857l10.275 10.325 17.042-21.83c0.031-0.038 0.063-0.074 0.098-0.109h-0.005z"
           ></path>
         </symbol>
+        <symbol id="icon-heroicons-solid_menu" viewBox="0 0 32 32">
+          <path
+            d="M4.799 8.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131-0.169 0.831-0.469 1.131c-0.3 0.3-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"
+          ></path>
+          <path
+            d="M4.799 16.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131c0 0.424-0.169 0.831-0.469 1.131s-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"
+          ></path>
+          <path
+            d="M4.799 24.001c0-0.424 0.169-0.831 0.469-1.131s0.707-0.469 1.131-0.469h19.2c0.424 0 0.831 0.169 1.131 0.469s0.469 0.707 0.469 1.131c0 0.424-0.169 0.831-0.469 1.131s-0.707 0.469-1.131 0.469h-19.2c-0.424 0-0.831-0.169-1.131-0.469s-0.469-0.707-0.469-1.131z"
+          ></path>
+        </symbol>
       </defs>
     </svg>
 
-    <header class="header" id="top">
+    <header class="hidden header" id="top">
       <div class="container">
         <nav class="nav">
           <a class="logo-web" href="./index.html"
@@ -203,18 +214,103 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-conteiner">
+          <button class="mobile-menu-close" type="button" data-menu-close>
+            <svg class="icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+              <li>
+                <a class="mobile-menu-item" href="./index.html">Studio</a>
+              </li>
+              <li>
+                <a class="mobile-menu-item" href="#portfolio">Portfolio</a>
+              </li>
+              <li><a class="mobile-menu-item" href="">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <address>
+            <ul class="mobile-menu-contact-info-list">
+              <li>
+                <a
+                  class="mobile-menu-contact-info-item"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mobile-menu-contact-info-item"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-list">
+            <li class="mobile-menu-social-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.instagram.com/"
+              >
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a class="mobile-menu-social-link" href="https://x.com/">
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.facebook.com/"
+              >
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-menu-social-item">
+              <a
+                class="mobile-menu-social-link"
+                href="https://www.linkedin.com/"
+              >
+                <svg class="mobile-menu-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="section hero" id="hero">
+      <section class="hidden section hero" id="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="main-button" type="button">Order Service</button>
+          <button class="main-button" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
-      <section class="section features" id="features">
+      <section class="hidden section features" id="features">
         <div class="container">
           <h2 class="visually-hidden">Our features</h2>
           <ul class="card-list">
@@ -270,12 +366,13 @@
         </div>
       </section>
 
-      <section class="section team" id="team">
+      <section class="hidden section team" id="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="card-list">
             <li class="card-item">
               <img
+                srcset="./images/img-3.jpg 1x, ./images/img-3@2x.jpg 2x"
                 src="./images/img-3.jpg"
                 alt="photo-team-member"
                 width="264"
@@ -316,9 +413,9 @@
                 </ul>
               </div>
             </li>
-
             <li class="card-item">
               <img
+                srcset="./images/img-2.jpg 1x, ./images/img-2@2x.jpg 2x"
                 src="./images/img-2.jpg"
                 alt="photo-team-member"
                 width="264"
@@ -361,6 +458,7 @@
             </li>
             <li class="card-item">
               <img
+                srcset="./images/img-1.jpg 1x, ./images/img-1@2x.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="photo-team-member"
                 width="264"
@@ -401,9 +499,9 @@
                 </ul>
               </div>
             </li>
-
             <li class="card-item">
               <img
+                srcset="./images/img.jpg 1x, ./images/img@2x.jpg 2x"
                 src="./images/img.jpg"
                 alt="photo-team-member"
                 width="264"
@@ -448,13 +546,14 @@
         </div>
       </section>
 
-      <section class="section" id="portfolio">
+      <section class="hidden section" id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="card-list">
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-4.jpg 1x, ./images/img-4@2x.jpg 2x"
                   src="./images/img-4.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -474,6 +573,7 @@
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-5.jpg 1x, ./images/img-5@2x.jpg 2x"
                   src="./images/img-5.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -493,6 +593,7 @@
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-6.jpg 1x, ./images/img-6@2x.jpg 2x"
                   src="./images/img-6.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -512,6 +613,7 @@
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-7.jpg 1x, ./images/img-7@2x.jpg 2x"
                   src="./images/img-7.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -531,6 +633,7 @@
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-8.jpg 1x, ./images/img-8@2x.jpg 2x"
                   src="./images/img-8.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -550,6 +653,7 @@
             <li class="portfolio-list-item">
               <div class="portfolio-item-descr">
                 <img
+                  srcset="./images/img-9.jpg 1x, ./images/img-9@2x.jpg 2x"
                   src="./images/img-9.jpg"
                   alt="portfolio-item"
                   width="360"
@@ -639,9 +743,9 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button class="close-btn" type="button">
+        <button class="close-btn" type="button" data-modal-close>
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -715,16 +819,20 @@ Text input</textarea
               <span class="policy">
                 <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="" class="policy-link">Privacy Policy</a>
+                </svg> </span
+              ><span>
+                I accept the terms and conditions of the
+                <a href="" class="policy-link">Privacy Policy</a></span
+              >
             </label>
           </div>
 
-          <button class="main-button" type="button">Send</button>
+          <button class="overlay main-button" type="button">Send</button>
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
